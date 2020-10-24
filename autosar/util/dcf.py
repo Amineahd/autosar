@@ -1,7 +1,7 @@
 import ntpath
 import os
 import sys
-import xml.etree.ElementTree as ElementTree
+import xml.etree.cElementTree as ElementTree
 import autosar
 
 dvg_xml = """<?xml version="1.0" encoding="utf-8"?>

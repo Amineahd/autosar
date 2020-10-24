@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ElementTree
+import xml.etree.cElementTree as ElementTree
 import re
 
 pVersion = re.compile(r"(\d+)\.(\d+)\.(\d+)")

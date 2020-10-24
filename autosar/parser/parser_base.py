@@ -296,7 +296,7 @@ class ElementParser(BaseParser, metaclass=abc.ABCMeta):
         """
         Invokes the parser
 
-        xmlElem: Element to parse (instance of xml.etree.ElementTree.Element)
+        xmlElem: Element to parse (instance of xml.etree.cElementTree.Element)
         parent: the parent object (usually a package object)
         Should return an object derived from autosar.element.Element
         """

@@ -2,7 +2,7 @@ import os, sys
 mod_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, mod_path)
 import autosar
-import xml.etree.ElementTree as ElementTree
+import xml.etree.cElementTree as ElementTree
 import unittest
 
 class TestBase(unittest.TestCase):

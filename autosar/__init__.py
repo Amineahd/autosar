@@ -17,7 +17,7 @@ import autosar.util
 
 import ntpath
 import os
-import xml.etree.ElementTree as ElementTree
+import xml.etree.cElementTree as ElementTree
 
 def workspace(version=3.0, patch = 2, schema=None, attributes=None, useDefaultWriters=True):
    if schema is None and ( (version == 3.0 and patch == 2) or (version == "3.0.2") ):
